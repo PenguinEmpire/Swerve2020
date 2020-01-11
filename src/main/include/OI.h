@@ -7,7 +7,12 @@
 
 #pragma once
 
+#include "frc/Joystick.h"
+#include "frc/command/InstantCommand.h"
+#include "frc/buttons/JoystickButton.h"
+
 class OI {
  public:
   OI();
+  Joystick primaryJoystick:
 };
